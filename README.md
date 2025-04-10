@@ -1,9 +1,5 @@
 # codingTemple01
 HTML &amp; CSS Project | Event Center Website
-Requirement
-Home Page: Introduces the event center and highlights its offerings.
-Events Page: Lists upcoming events with details (names, dates, descriptions).
-Menu Page: Showcases food options organized by categories.
-Location Page: Displays location details with a map or image.
-Contact Us Page: Contains a form for visitor inquiries.
+
+https://docs.google.com/document/d/1KoodrztUJYJsvR4-Le0JTmvbkdP__E3A4ogfRllHx_o/edit?tab=t.0
 
