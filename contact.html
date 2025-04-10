@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Contact</title>
 </head>
 <body>
@@ -10,15 +11,30 @@
         <h1></h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <form>
-        
+    <form action="#" method="POSt">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+        <label for="message">Message</label>
+        <label>How Did you found my Website?</label>
+        <input  type="radio" id="google" name="platform" value="google">
+        <label for="google">Male</label>
+        <input  type="radio" id="Social-media" name="platform" value="social-media">
+        <label for="social-media">Social media</label>
+        <textarea id="message" name="message" placeholder="Write Your message"></textarea>
+        <input type="submit" value="Send">
     </form>
     
+    <footer class="footer">
+        <p>&copy; 2025 My Project</p>
+    <a href="contact.html#header">Back to Top</a>
+    </footer>
 </body>
 </html>
